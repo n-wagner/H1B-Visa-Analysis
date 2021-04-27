@@ -32,6 +32,7 @@ Python 3.8.8
     2. `gcloud compute ssh %HOSTNAME% --project=%PROJECT% --zone=%ZONE%  -- -D %PORT%`
 2. Create local file
     1. `nano project.py`
-    2. Paste a copy of `main.py` by left clicking
+    2. Paste a copy of `main.py` by right clicking
     3. `ctrl+x` to save
-3. `python project.py`
+3. Consider flags `python project.py --help`
+4. Run default or with flags (e.g. `python project.py`, `python project.py --force -no-basic`, etc.)
